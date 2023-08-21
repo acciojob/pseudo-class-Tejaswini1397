@@ -1,14 +1,19 @@
 /*  your css code here. If applicable */
 #container::before {
-    content: "Before Content";
-    display: inline;
+    content: "Before Element";
     color: #f00;
     font-size: 20px;
+	padding:10px;
 }
 
 #container::after {
-    content: "After Content";
-    display: inline;
+    content: "After Element";
     color: #f00;
     font-size: 20px;
+	padding:10px;
+}
+#container{
+	display:inline-flex;
+	padding:10px;
+	margin:10px;
 }
