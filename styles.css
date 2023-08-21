@@ -3,17 +3,19 @@
     content: "Before Element";
     color: #f00;
     font-size: 20px;
-	padding:10px;
+/* 	padding:10px;
+	margin:20px; */
 }
 
 #container::after {
     content: "After Element";
     color: #f00;
     font-size: 20px;
-	padding:10px;
+/* 	padding:10px;
+	margin:20px; */
 }
 #container{
 	display:inline-flex;
-	padding:10px;
-	margin:10px;
+/* 	padding:10px; */
+	margin:20px;
 }
